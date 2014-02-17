@@ -1,0 +1,62 @@
+From: Krebs, Mike 
+Sent: Monday, February 17, 2014 9:39 AM
+To: **REMOVED RECIPIENTS FOR PRIVACY**
+Subject: Internet Explorer 8 NAVIGATION BAR DISPLAY ISSUE - hidden behind top image
+Importance: High
+ 
+Good morning **REMOVED NAME FOR PRIVACY**,
+ 
+The new [WEBSITE NAME HERE] page looks nice! 
+ONE ISSUE: I’m sure you noticed, but with [COMPANY NAME] being on INTERNET EXPLORER 8 (behind), the DROP –DOWN MENU is HIDING BEHIND the top Welcome Message Image. . .
+ 
+Some possible solutions to fix this:
+Below are some code (CSS) fixes –others out there have the same issue with their websites in OLDER WEB BROWSERS. . .
+ 
+POSSIBLE 2 SOLUTIONS: 
+1) They may need to position the top banner photo (Welcome Image) with a NEGATIVE Z-NUMBER. . .
+2) They may need to add the CSS STYLE= “position: relative;” to the navigation menu
+ 
+
+ 
+SUGGESTIONS BELOW:
+ 
+//The CURRENT NAVIGATION .CSS
+//There is a Z-Index of 2 – but the NAVIGATION needs to have POSITION: RELATIVE; for the sub-navigation elements. . .
+ 
+//YOUR CSS FOR THE NAVIGATION
+#navlist > li > a{
+        font-size: 16px;
+}
+.nav ul li{
+        z-index: 4;
+}
+ul#navlist li:hover ul,
+ul#navlist li:hover ul li,
+ul#navlist li:hover ul li a
+{
+        display: block;
+        float:none;
+        z-index:2;
+        max-width:250px;
+(insert)position: relative; //maybe try adding this position to the nav?
+}
+
+//YOUR CSS FOR THE TOP BANNER IMAGE (“Welcome Image”?)
+}
+/*
+slider/banner
+*/
+.desktoponly .banner-slide{
+        position: relative;
+}
+.desktoponly .slide-username{
+        position: absolute;
+        left: 50%;
+        top: 160px;
+        right: 0;
+        /*width: 350px;*/
+        font-size: 40px;
+        z-index: 1; //MAY NEED TO CHANGE THE BANNER IMAGE AT TOP TO A NEGATIVE (-1) Z-INDEX?
+        color: white;
+        font-weight: lighter;
+}
