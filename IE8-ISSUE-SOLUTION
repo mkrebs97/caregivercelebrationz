@@ -1,0 +1,495 @@
+ 
+ 
+ 
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+	<title>Caregiver Celebrations - Reports</title>
+	
+	<link rel="stylesheet" href="/rmi/sites/caregiver/css/bjqs.css">
+	<link rel="stylesheet" href="/rmi/sites/caregiver/css/master.css">
+	
+	<link rel="stylesheet" href="/rmi/sites/caregiver/css/redmond/jquery-ui-1.10.4.custom.min.css">
+	
+	<link rel="stylesheet" type="text/css" href="/rmi/sites/caregiver/css/layout.css" />
+	
+	<script type="text/javascript">
+		// initialize js variables to be used in other js file that will be included
+		var programUrl = "/rmi/sites/caregiver/";
+	</script>
+	<script type="text/javascript" src="/rmi/sites/caregiver/javascript/jquery-1.10.2.min.js"></script>
+	<script type="text/javascript" src="/rmi/sites/caregiver/javascript/overlay.js"></script>
+	
+	<script type="text/javascript" src="/rmi/sites/caregiver/javascript/jquery-ui-1.10.4.custom.min.js"></script>
+	<script type="text/javascript" src="/rmi/sites/caregiver/javascript/layout.js"></script>
+	
+</head>
+<body >
+	<div class="heading">
+	
+			
+			<div class="logo">
+				<a href="/rmi/welcome.cfm?temp=ZdPNhWDWlPMsiUdlrSPT94x6pGqpGNj4Qo">
+					<img src="/rmi/sites/caregiver/image/logo.png" />
+				</a>
+			</div>
+			<div class="nav">
+				
+					<span class="welcome">
+						Welcome, Michael
+						<br>
+						
+						Award Balance:
+						<b>
+							<a href="/rmi/reports.cfm?temp=ZdPNhWDWlPMsiUdlrSPT94x6pGqpGNj4Qo&page=gccenter">$0</a>
+						</b>
+						<br>
+						
+						<a href="/rmi/logout.cfm?temp=ZdPNhWDWlPMsiUdlrSPT94x6pGqpGNj4Qo" id="logout-link">
+							Log Out
+						</a>
+					</span>
+				
+<a href="#" id="mobilemenu">
+	Menu
+</a>
+<ul id="navlist">
+	
+		<li id="first"><a href="/rmi/welcome.cfm?temp=ZdPNhWDWlPMsiUdlrSPT94x6pGqpGNj4Qo">Home</a></li>
+		
+		
+		
+			
+			<li><a href="/partners4/sites/caregiver/shop.cfm?temp=ZdPNhWDWlPMsiUdlrSPT94x6pGqpGNj4Qo&userid=533809&CFID=1323582&CFTOKEN=25350603">Spend Rewards</a>
+				<ul style="overflow: auto;">
+					<li><a href="/rmi/reports.cfm?temp=ZdPNhWDWlPMsiUdlrSPT94x6pGqpGNj4Qo&page=gccenter">My Gift Certificates</a></li>
+					<li><a href="/partners4/sites/caregiver/shop.cfm?temp=ZdPNhWDWlPMsiUdlrSPT94x6pGqpGNj4Qo&userid=533809&CFID=1323582&CFTOKEN=25350603">Go Shop!</a></li>
+				</ul>
+			</li>
+		
+		<li><a href="/rmi/reports.cfm?temp=ZdPNhWDWlPMsiUdlrSPT94x6pGqpGNj4Qo&page=issue">Reports</a>
+			<ul style="overflow: auto;">
+		
+				<li><a href="/rmi/reports.cfm?temp=ZdPNhWDWlPMsiUdlrSPT94x6pGqpGNj4Qo&page=issue">Issued Awards Report</a></li>
+		
+		
+				<li><a href="/rmi/reports.cfm?temp=ZdPNhWDWlPMsiUdlrSPT94x6pGqpGNj4Qo&page=receive">Received Awards Report</a></li>
+		
+				<li><a href="/rmi/reports.cfm?temp=ZdPNhWDWlPMsiUdlrSPT94x6pGqpGNj4Qo&page=issuepartnership">Issued Partnership Appreciation Report</a></li>
+		
+				<li><a href="/rmi/reports.cfm?temp=ZdPNhWDWlPMsiUdlrSPT94x6pGqpGNj4Qo&page=admin">Award Report</a></li>
+				<li><a href="/rmi/reports.cfm?temp=ZdPNhWDWlPMsiUdlrSPT94x6pGqpGNj4Qo&page=partnership">Partnership Appreciation Report</a></li>
+				<li><a href="/rmi/reports.cfm?temp=ZdPNhWDWlPMsiUdlrSPT94x6pGqpGNj4Qo&page=upgrade">Upgraded Award Report</a></li>
+				<li><a href="/rmi/reports.cfm?temp=ZdPNhWDWlPMsiUdlrSPT94x6pGqpGNj4Qo&page=tier3admin">Excellence Award Nominations</a></li>
+				<li><a href="/rmi/reports.cfm?temp=ZdPNhWDWlPMsiUdlrSPT94x6pGqpGNj4Qo&page=tier4admin">Caregiver Award Nominations</a></li>
+				<li><a href="/rmi/reports.cfm?temp=ZdPNhWDWlPMsiUdlrSPT94x6pGqpGNj4Qo&page=payroll">Payroll Report</a></li>
+			  <li><a href="/rmi/reports.cfm?temp=ZdPNhWDWlPMsiUdlrSPT94x6pGqpGNj4Qo&page=statusemail&function=winner">Excellence Winners Report</a></li>
+				<li><a href="/rmi/reports.cfm?temp=ZdPNhWDWlPMsiUdlrSPT94x6pGqpGNj4Qo&page=budget">Manager Budget Report</a></li>
+				<li><a href="/rmi/reports.cfm?temp=ZdPNhWDWlPMsiUdlrSPT94x6pGqpGNj4Qo&page=budget&function=institute">Institute Budget Report</a></li>
+				<li><a href="/rmi/reports.cfm?temp=ZdPNhWDWlPMsiUdlrSPT94x6pGqpGNj4Qo&page=budget&function=transaction">Budget Transaction Report</a></li>
+				
+		
+				<li><a href="/rmi/reports.cfm?temp=ZdPNhWDWlPMsiUdlrSPT94x6pGqpGNj4Qo&page=notecard">Caregiver Celebrations Notecards Report</a></li>
+				<li><a href="/rmi/reports.cfm?temp=ZdPNhWDWlPMsiUdlrSPT94x6pGqpGNj4Qo&page=spot">Caregiver Celebrations &quot;On the Spot&quot; Rounding Tablet Report</a></li>
+				<li><a href="/rmi/reports.cfm?temp=ZdPNhWDWlPMsiUdlrSPT94x6pGqpGNj4Qo&page=patrecog">Caregiver Celebrations Patient Recognition Cards Report</a></li>
+				<li><a href="/rmi/reports.cfm?temp=ZdPNhWDWlPMsiUdlrSPT94x6pGqpGNj4Qo&page=patient">Patient Recognition Report</a></li>
+		
+				<li><a href="/rmi/reports.cfm?temp=ZdPNhWDWlPMsiUdlrSPT94x6pGqpGNj4Qo&page=tenure">Tenure Report</a></li>
+				<li><a href="/rmi/reports.cfm?temp=ZdPNhWDWlPMsiUdlrSPT94x6pGqpGNj4Qo&page=bday">Birthday Report</a></li>
+				<li><a href="/rmi/reports.cfm?temp=ZdPNhWDWlPMsiUdlrSPT94x6pGqpGNj4Qo&page=traditional">Milestone Selection Report</a></li>
+				
+		
+			</ul>
+		</li>
+		
+		<li><a href="javascript:">Admin</a>
+			<ul style="overflow: auto;">
+				
+				  <li><a href="/rmi/reports.cfm?temp=ZdPNhWDWlPMsiUdlrSPT94x6pGqpGNj4Qo&page=budget&function=transfer">Transfer Budget</a></li>
+					<li><a href="/rmi/nominate.cfm?temp=ZdPNhWDWlPMsiUdlrSPT94x6pGqpGNj4Qo">Random Recognition</a></li>
+					
+					<li><a href="/rmi/businessintelligenceutilities.cfm?temp=ZdPNhWDWlPMsiUdlrSPT94x6pGqpGNj4Qo">Stats</a></li>
+					<li><a href="/rmi/sites/caregiver/Recognition-News.pdf" target="_tips">Recognition News Guidelines</a></li>
+					<li><a href="/rmi/sites/caregiver/Caregiver Celebrations Excellence Award Guidelines 1 9-14-10.pdf" target="_tools">How to Review and Approve Excellence Award Nominations</a></li>
+					<li><a href="/rmi/sites/caregiver/Caregiver Celebrations Admin Budget Tools Use 9.13.10.pdf" target="_tools">How to Review Budget Reporting</a></li>
+				
+					<li><a href="/rmi/proxy.cfm?temp=ZdPNhWDWlPMsiUdlrSPT94x6pGqpGNj4Qo">Proxy</a></li>
+				
+					<li><a href="/rmi/reports.cfm?temp=ZdPNhWDWlPMsiUdlrSPT94x6pGqpGNj4Qo&page=instituteyr">Institute Yearly Excellence Awards</a></li>
+				 
+			</ul>
+		</li>
+		
+		<li><a href="javascript:">Help</a>
+			<ul style="overflow: auto;">
+			
+    				<li><a href="/rmi/sites/caregiver/Caregiver Celebrations Employees New Enhancements.pdf" target="_tips">Employee New Enhancement</a></li>
+    			
+				<li><a href="/rmi/sites/caregiver/Caregiver Celebrations Employee Recognition Tips Site Use 5-26-10 FINAL.pdf" target="_tips">Recognition Tips and Site Usage</a></li>
+				
+				  <li><a href="/rmi/sites/caregiver/CCCC Manager Overview & Highlights PDF.pdf" target="_tips">Manager Program Overview</a></li>
+				  <li><a href="/rmi/sites/caregiver/CCCC Caregiver Overview & Highlights PDF.pdf" target="_tips">Employee Program Overview</a></li>
+				
+				<li><a href="/rmi/sites/caregiver/FINAL Emp Q&A 5-19-10 PDF.pdf" target="_tips">FAQs</a></li>
+    		
+    			<li><a href="/rmi/sites/caregiver/How to print certs.pdf" target="_tips">How to Print Certificates</a></li>
+    		
+    			<li><a href="/rmi/sites/caregiver/Caregiver Celebrations Awards Tax Explanation.pdf" target="_tips">Awards Tax Explanation</a></li>
+    		
+    			<li><a href="/rmi/sites/caregiver/Service_Awards_Ordering_Instructions.pdf" target="_tips">Service Awards Ordering Instructions</a></li>
+			
+			<li><a href="/rmi/sites/caregiver/2014 Service Awards Schedule.pdf" target="_tips">2014 Service Awards Schedule</a></li>
+			<li><a href="/rmi/userinfo.cfm?temp=ZdPNhWDWlPMsiUdlrSPT94x6pGqpGNj4Qo">Update Profile</a></li>
+			<li><a href="/rmi/customersupport.cfm?temp=ZdPNhWDWlPMsiUdlrSPT94x6pGqpGNj4Qo">Support</a></li>
+			
+			</ul>
+		</li>
+	
+</ul>
+ 
+			</div>
+	
+	</div>
+	
+	<div class="wrapper" id="body">
+		
+ 
+		<script src="includes/automatic_field_tabbing.js" language="JavaScript"></script>
+	
+	<link rel="stylesheet" type="text/css" href="/rmi/sites/caregiver/css/yahoo_data.css">
+	<link rel="stylesheet" type="text/css" href="/rmi/sites/caregiver/css/report.css">
+	<div class="container">
+		<div class="pagetitle content">
+			<h1>Reporting for Issued Awards</h1>
+		</div>
+	</div>
+	
+	
+	
+	
+		<div class="container">
+			<div class="content">
+				<form id="filter-form" name="adminSearch" 
+						action="/rmi/reports.cfm" method="get">
+					<input type="hidden" name="page" value="issue" />
+					<input type="hidden" name="temp" value="ZdPNhWDWlPMsiUdlrSPT94x6pGqpGNj4Qo" />
+					
+					<input type="hidden" name="abtest" value="" />
+					
+				<div>
+					<p>Select a date range</p>
+					<div class="b1o2">
+						<div class="b1">
+							<label>from</label>
+						</div>
+						<br />
+						
+					  <input type="text" class="date" name="start_date" value="02/1/2014">
+						<br style="clear:both;" />
+					</div>
+					<div class="b1o2">
+						<div class="b1">
+							<label>to</label>
+						</div>
+						
+					  <input type="text" class="date" name="end_date" value="02/28/2014">
+						<br style="clear:both;" />
+					</div>
+					<br style="clear:both;" />
+				</div>
+					
+						<input type="submit" name="submit" value="Display">
+						<div class="clear"></div>
+					
+				</form>
+				<div class="clear"></div>
+			</div>
+		</div>
+	
+		<div class="container" id="downloadCSVLink">
+			<div class="content calltoaction" style="text-align:center;">
+				<p>
+					<a href="downloadcsv.cfm?temp=ZdPNhWDWlPMsiUdlrSPT94x6pGqpGNj4Qo&start_date=02/01/2014&end_date=02/28/2014&page=issue">Download CSV</a>
+					
+				</p>
+			</div>
+		</div>
+		<div class="container" id="waitForDownload">
+			<div class="content calltoaction">
+				<img src="images/loadingAnimation.gif"><br>
+				Now generating a <span id="reportRowText"></span> report.
+				Larger downloads could take up to several minutes.
+				Please be patient, and do not hit your Back button.
+			</div>
+		</div>
+	
+	
+	<div class="container yui-skin-sam">
+		<div class="content">
+			<form name="massApprove" action="/rmi/reports.cfm?temp=ZdPNhWDWlPMsiUdlrSPT94x6pGqpGNj4Qo&page=issue" method="post">
+				<div id="dynamicdata"></div>
+				
+			</form>
+		</div>
+	</div>
+	
+	
+	<script type="text/javascript" src="/rmi/sites/caregiver/_scripts.cfm"></script>
+	<script type="text/javascript" src="/rmi/sites/caregiver/javascript/report.js"></script>
+	<script type="text/javascript">
+		var reportExtra = "";
+	  function checkUncheckAll(theElement) {
+			var theForm = theElement.form, z = 0, parent = "", allStatus = true;
+			for(z = 0; z < theForm.length; z++) {
+				if(theForm[z].type == "checkbox" && !theForm[z].disabled) {
+					if (theElement.className == "allbox") theForm[z].checked = theElement.checked;
+					else {
+						if (theForm[z].checked == false && theForm[z].className != "allbox") allStatus = theForm[z].checked;
+						if (theForm[z].name == theElement.name) theForm[z].checked = theElement.checked;
+					}
+				}
+			}
+			if (theElement.className != "allbox" && !theForm.allbox.disabled) theForm.allbox.checked = allStatus;
+		}
+		function checkCheckboxes(theElement) {
+			var status = "deny";
+			var checkboxNames = [];
+			var numberChecked = 0;
+			if (theElement.value.search(/approve/i) != -1) status = "approve";
+			var theForm = theElement.form, z = 0;
+			for(z = 0; z < theForm.length; z++) {
+				if(theForm[z].type == "checkbox" && theForm[z].checked == true) {
+				  if ($.inArray(theForm[z].name, checkboxNames) < 0 && theForm[z].name != "allbox") {
+				    checkboxNames.push(theForm[z].name);
+				    numberChecked += 1;
+				  }
+				  //numberChecked += 1;
+				}
+			}
+			//alert (numberChecked);
+			if (numberChecked > 0 && status == "approve") {
+			  alert("You selected " + numberChecked + " award(s) to approve, but you only have 0 available.");
+			  return false;
+			}
+			
+			if(numberChecked > 0) {
+			  return confirm("Are you sure you wish to " + status.toUpperCase() + " the selected award(s)?");
+			}
+			
+			alert("You must select at least one award to " + status.toUpperCase() + "!");
+			//theForm.select1.focus();
+			return false;
+		}
+		function constrain(str,n) {
+	    if(str.length > n) {
+	      var s = str.substr(0, n);
+	      var words = s.split(' ');
+	      words[words.length-1] = '';
+	      str = words.join(' ') + '&hellip;'
+	    }
+	    return str;
+	  }
+	  function truncateMiddle(str, chars) {
+	    if (str.length > chars) {
+	      // Favor the beginning of the string:
+	      var half = Math.floor(chars / 2);
+	      var endPos = str.length - half;
+	      half += chars % 2;
+	      str = str.substring(0, half) + '...' + str.substring(endPos);
+	    }
+	    return str;
+	  }
+	
+		/*function checkUncheckAll(theElement) {
+			var theForm = theElement.form, z = 0, parent = "", allStatus = true;
+			for(z = 0; z < theForm.length; z++) {
+				if(theForm[z].type == "checkbox"){
+					if (theElement.className == "allbox") theForm[z].checked = theElement.checked;
+					else {
+						if (theForm[z].checked == false && theForm[z].className != "allbox") allStatus = theForm[z].checked;
+						if (theForm[z].name == theElement.name) theForm[z].checked = theElement.checked;
+					}
+				}
+			}
+			if (theElement.className != "allbox") {
+				theForm.allbox.checked = allStatus;
+			}
+		}
+		function checkCheckboxes(theElement) {
+			var status = "deny";
+			if (theElement.value.search(/approve/i) != -1) status = "approve";
+			var theForm = theElement.form, z = 0;
+			for(z = 0; z < theForm.length; z++) {
+				if(theForm[z].type == "checkbox" && theForm[z].checked == true) return confirm("Are you sure you wish to " + status.toUpperCase() + " the selected award(s)?");
+			}
+			alert("You must select at least one award to " + status.toUpperCase() + "!");
+			theForm.select1.focus();
+			return false;
+		}*/
+		
+		YAHOO.example.DynamicData = function() {
+				var awardViewUrl = "awardview.cfm?temp=ZdPNhWDWlPMsiUdlrSPT94x6pGqpGNj4Qo";
+				var currUrl = "/rmi/reports.cfm?temp=ZdPNhWDWlPMsiUdlrSPT94x6pGqpGNj4Qo";
+				var awardUrl = "/rmi/award.cfm?temp=ZdPNhWDWlPMsiUdlrSPT94x6pGqpGNj4Qo";
+				this.customDateLink = function(elCell, oRecord, oColumn, oData) {
+					//height = 650;
+					//width = 550;
+					//tp = (screen.height/2) - height/2;
+					//left = (screen.width/2) - width/2;
+					//if (window.screenTop) tp = tp + window.screenTop - 150; else tp = tp + window.screenY;
+					//if (window.screenLeft) left = left + window.screenLeft; else left = left + window.screenX;
+					var url = awardViewUrl+"&page=issue&type=" + oRecord.getData("delivery") + "&cart=" + oRecord.getData("id");
+					var html = "<a href='"+url+"' target='_blank'>";
+					//html += " onClick='window.open('"+url+"','awardDetails','top=" + tp + ",left=" + left + ",height=" + height + ",";
+					//html += "width=" + width + ",scrollbars=yes'); return false;'>";
+					html += oRecord.getData("date") + "</a>";
+					elCell.innerHTML = html;
+				};
+				YAHOO.widget.DataTable.Formatter.customDateLink = this.customDateLink;
+ 
+				this.customFromLink = function(elCell, oRecord, oColumn, oData) {
+					var url = currUrl+"&page=issue&start_month=02";
+					url += "&start_day=1&start_year=2014&end_month=02";
+					url += "&end_day=28&end_year=2014";
+					url += "&from=" + oRecord.getData("from") + " (" + oRecord.getData("fromID") + ")";
+					elCell.innerHTML = "<a href='"+url+"'>" + oRecord.getData("from") + "</a>";
+				};
+				YAHOO.widget.DataTable.Formatter.customFromLink = this.customFromLink;
+ 
+				this.customToLink = function(elCell, oRecord, oColumn, oData) {
+					var url = currUrl + "&page=issue&start_month=02&start_day=1";
+					url += "&start_year=2014&end_month=02&end_day=28";
+					url += "&end_year=2014&to=" + oRecord.getData("to") + " (" + oRecord.getData("toID") + ")";
+					elCell.innerHTML = "<a href='"+url+"'>" + oRecord.getData("to") + "</a>";
+				};
+				YAHOO.widget.DataTable.Formatter.customToLink = this.customToLink;
+ 
+				this.customUpgradeLink = function(elCell, oRecord, oColumn, oData) {
+					if (oRecord.getData("upgrade") != "No") {
+						var url = awardUrl + "&allEmployees=" + oRecord.getData("toID");
+						url += "&core101=" + oRecord.getData("core1") + "&upgrade=" + oRecord.getData("id");
+						url += "&awardtype01=" + oRecord.getData("awardType");
+						elCell.innerHTML = "<a href='"+url+"'>" + oRecord.getData("upgrade") + "</a>";
+					}
+				};
+				YAHOO.widget.DataTable.Formatter.customUpgradeLink = this.customUpgradeLink;
+ 
+				this.customDocsLink = function(elCell, oRecord, oColumn, oData) {
+					if (oRecord.getData("docs") != "") {
+						var doclist = oRecord.getData("docs");
+						var valueArray = doclist.split(",");
+						var doclinks = "";
+						var docimage = "";
+						if (valueArray.length > 1) {
+							for(var i=0; i<valueArray.length; i++) {
+								var docext = valueArray[i].split(".");
+								if (docext[docext.length - 1].indexOf("doc") != -1) docimage = "doc.gif";
+								else if (docext[docext.length - 1].indexOf("xls") != -1) docimage = "xls.gif";
+								else if (docext[docext.length - 1].indexOf("pdf") != -1) docimage = "pdf.gif";
+								else if (docext[docext.length - 1].indexOf("ppt") != -1) docimage = "ppt.gif";
+								else if (docext[docext.length - 1].indexOf("txt") != -1) docimage = "txt.gif";
+								else var docimage = "file.gif";
+								doclinks = doclinks + "<img src=\"/rmi/images/caregiver/" + docimage + "\" border=\"0\" />" + "<a href=\"http://corp1.corporaterewards.com/rmi/sites/caregiver/uploads/" + oRecord.getData("id") + "/" + valueArray[i] + "\" target=\"blank\">" + truncateMiddle(valueArray[i], 30) + "</a><br />";
+							}
+						} else {
+							if (doclist.indexOf("doc") != -1) {
+								docimage = "doc.gif";
+							} else if (doclist.indexOf("xls") != -1) {
+								docimage = "xls.gif";
+							} else if (doclist.indexOf("pdf") != -1) {
+								docimage = "pdf.gif";
+							} else if (doclist.indexOf("ppt") != -1) {
+								docimage = "ppt.gif";
+							} else {
+								var docimage = "";
+							}
+							doclinks = "<img src=\"/rmi/images/caregiver/" + docimage + "\" border=\"0\" />" + "<a href=\"http://corp1.corporaterewards.com/rmi/sites/caregiver/uploads/" + oRecord.getData("id") + "/" + doclist + "\" target=\"blank\">" + truncateMiddle(doclist, 30) + "</a>";
+						}
+						elCell.innerHTML = doclinks;
+					}
+				};
+				YAHOO.widget.DataTable.Formatter.customDocsLink = this.customDocsLink;
+ 
+				// Column definitions
+				var myColumnDefs = [
+					
+					{key:"date", label:"Date", sortable:true, formatter:"customDateLink"},
+					{key:"from", label:"Sender", sortable:true, formatter:"customFromLink"},
+					{key:"to", label:"Recipient", sortable:true, formatter:"customToLink"},
+					{key:"awardType", label:"Award Tier", sortable:true},
+					{key:"amount", label:"Amount", sortable:true},
+					{key:"status", label:"Status", sortable:true}
+				];
+				
+				
+				// DataSource instance
+				var myDataSource = new YAHOO.util.DataSource("/rmi/sites/caregiver/_reports.cfm?page=issue&temp=ZdPNhWDWlPMsiUdlrSPT94x6pGqpGNj4Qo&results=50&start_date=02/01/2014&end_date=02/28/2014&");
+				myDataSource.responseType = YAHOO.util.DataSource.TYPE_JSON;
+				myDataSource.responseSchema = {
+					resultsList: "records",
+					fields: [
+						{key:"id", parser:"number"},
+						
+						{key:"date"},
+						{key:"from"},
+						{key:"fromID"},
+						{key:"to"},
+						{key:"toID"},
+						{key:"awardType"},
+						{key:"core1"},
+						{key:"amount"},
+						
+						{key:"delivery"},
+						{key:"status"}
+					],
+					metaFields: {
+						totalRecords: "totalRecords" // Access to value in the server response
+					}
+				};
+ 
+				// DataTable configuration
+				var myConfigs = {
+					initialRequest: "sort=date&dir=desc&startIndex=0&cache=0", // Initial request for first page of data
+					dynamicData: true, // Enables dynamic server-driven data
+					sortedBy : {key:"date", dir:YAHOO.widget.DataTable.CLASS_DESC}, // Sets UI initial sort arrow
+					paginator: new YAHOO.widget.Paginator({ rowsPerPage:50 }) // Enables pagination
+				};
+				
+				
+				// DataTable instance
+				var myDataTable = new YAHOO.widget.DataTable("dynamicdata", myColumnDefs, myDataSource, myConfigs);
+				// Update totalRecords on the fly with value from server
+				myDataTable.handleDataReturnPayload = function(oRequest, oResponse, oPayload) {
+					oPayload.totalRecords = oResponse.meta.totalRecords;
+					if (oResponse.meta.totalRecords > 0)
+					{
+						$("#reportRowText").html(oResponse.meta.totalRecords + " row(s) ");
+					}else{
+						$("#downloadCSVLink").hide();
+					}
+					return oPayload;
+				}
+ 
+				return {
+					ds: myDataSource,
+					dt: myDataTable
+				};
+ 
+			}();
+	</script>
+ 
+		<div class="clear"></div>
+		<div class="container footer">
+			<div class="content">
+				<p>
+					&copy; 
+					2014. Cleveland Clinic, all rights reserved.
+				</p>
+			</div>
+		</div>
+	</div>
+</body>
+</html>
+
