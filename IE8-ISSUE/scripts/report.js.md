@@ -1,3 +1,7 @@
+// Solution to IE7-8 'console' bug:
+if ( ! window.console ) console = { log: function(){} };
+// If you use other console methods, add them to the object literal above
+
 // for IEprompt call back
 function promptCallback(val, elmt){
 	if(elmt.length > 0){
