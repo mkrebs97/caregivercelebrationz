@@ -1,3 +1,7 @@
+// Solution to IE7-8 'console' bug:
+if ( ! window.console ) console = { log: function(){} };
+// If you use other console methods, add them to the object literal above
+
 // for IEprompt call back
 function promptCallback(val, elmt){
 	if(elmt.length > 0){
@@ -43,6 +47,9 @@ function startDownload(page)
 			setTimeout(function(){timer(rndId);}, 1000);
 		}
 	}
+		/*
+	deleted line 56 COSOLE call for production - caused errors-mistakenly left in
+	*/
 	function downloadCsv(url){
 		var rndId = new Date().getTime();
 		$("#downloadCSVLink").slideUp();
@@ -53,7 +60,6 @@ function startDownload(page)
 	$("#downloadCSVLink").on("click", "a", function(e){
 		e.preventDefault();
 		var csvUrl = $(this).attr("href");
-		console.log(csvUrl);
 		downloadCsv(csvUrl);
 	});
 	/*
